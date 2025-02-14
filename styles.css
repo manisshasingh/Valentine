@@ -1,0 +1,51 @@
+body {
+  background-color: #B3E0FF; /* Lighter blue background */
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #D5006D; /* Darker pink text */
+  font-size: 3rem;
+  margin-bottom: 10px; /* Space between question and rule text */
+}
+
+.rule-text {
+  color: #D5006D; /* Dark pink for the rule text */
+  font-size: 1.2rem; /* Smaller font size */
+  margin-bottom: 20px; /* Space between rule text and buttons */
+}
+
+button {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  margin: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.yes-btn {
+  background-color: #F06292; /* Darker pink for 'Yes' button */
+  color: white;
+}
+
+.no-btn {
+  background-color: #F50057; /* Even darker pink for 'No' button */
+  color: white;
+  position: relative;
+}
+
+button:hover {
+  opacity: 0.8;
+}
